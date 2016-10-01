@@ -1,0 +1,1595 @@
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.263 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.396 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.256 seconds.[0m
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.867 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   src/cljs_web3/utils.cljs   line:32  column:38  ----[0m
+
+  [1mNo such namespace: string, could not locate string.cljs, string.cljc, or Closure namespace ""[0m
+
+  [36m28[0m  [36m([this method-name][0m
+  [36m29[0m  [36m (js-apply this method-name nil))[0m
+  [36m30[0m  [36m([this method-name args][0m
+  [36m31[0m  [36m (let [method-name (name method-name)][0m
+  [33m32[0m  [1m   (if-let [method (aget this (if (string/includes? method-name "-") ; __callback gets wrongly transformed[0m
+  [0m  [0m  [33m                                   ^--- No such namespace: string, could not locate string.cljs, string.cljc, or Closure namespace ""[0m
+  [36m33[0m  [36m                                (cs/->camelCase method-name)[0m
+  [36m34[0m  [36m                                method-name))][0m
+  [36m35[0m  [36m     (js->cljkk (.apply method this (clj->js (args-cljkk->js args))))[0m
+  [36m36[0m  [36m     (throw (str "Method: " method-name " was not found in object."))))))[0m
+
+[36m----  Compiler Warning : Please see src/cljs_web3/utils.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs_web3/utils.cljs   line:32  column:38  ----[0m
+
+  [1mUse of undeclared Var string/includes?[0m
+
+  [36m28[0m  [36m([this method-name][0m
+  [36m29[0m  [36m (js-apply this method-name nil))[0m
+  [36m30[0m  [36m([this method-name args][0m
+  [36m31[0m  [36m (let [method-name (name method-name)][0m
+  [33m32[0m  [1m   (if-let [method (aget this (if (string/includes? method-name "-") ; __callback gets wrongly transformed[0m
+  [0m  [0m  [33m                                   ^--- Use of undeclared Var string/includes?[0m
+  [36m33[0m  [36m                                (cs/->camelCase method-name)[0m
+  [36m34[0m  [36m                                method-name))][0m
+  [36m35[0m  [36m     (js->cljkk (.apply method this (clj->js (args-cljkk->js args))))[0m
+  [36m36[0m  [36m     (throw (str "Method: " method-name " was not found in object."))))))[0m
+
+[36m----  Compiler Warning : Please see src/cljs_web3/utils.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.87 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.568 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/utils.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.219 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.215 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   target/classes/cljs_web3/utils.cljs   line:32  column:38  ----[0m
+
+  [1mNo such namespace: string, could not locate string.cljs, string.cljc, or Closure namespace ""[0m
+
+  [36m28[0m  [36m([this method-name][0m
+  [36m29[0m  [36m (js-apply this method-name nil))[0m
+  [36m30[0m  [36m([this method-name args][0m
+  [36m31[0m  [36m (let [method-name (name method-name)][0m
+  [33m32[0m  [1m   (if-let [method (aget this (if (string/includes? method-name "-") ; __callback gets wrongly transformed[0m
+  [0m  [0m  [33m                                   ^--- No such namespace: string, could not locate string.cljs, string.cljc, or Closure namespace ""[0m
+  [36m33[0m  [36m                                (cs/->camelCase method-name)[0m
+  [36m34[0m  [36m                                method-name))][0m
+  [36m35[0m  [36m     (js->cljkk (.apply method this (clj->js (args-cljkk->js args))))[0m
+  [36m36[0m  [36m     (throw (str "Method: " method-name " was not found in object."))))))[0m
+
+[36m----  Compiler Warning : Please see target/classes/cljs_web3/utils.cljs  ----[0m
+[36m----  Compiler Warning on   target/classes/cljs_web3/utils.cljs   line:32  column:38  ----[0m
+
+  [1mUse of undeclared Var string/includes?[0m
+
+  [36m28[0m  [36m([this method-name][0m
+  [36m29[0m  [36m (js-apply this method-name nil))[0m
+  [36m30[0m  [36m([this method-name args][0m
+  [36m31[0m  [36m (let [method-name (name method-name)][0m
+  [33m32[0m  [1m   (if-let [method (aget this (if (string/includes? method-name "-") ; __callback gets wrongly transformed[0m
+  [0m  [0m  [33m                                   ^--- Use of undeclared Var string/includes?[0m
+  [36m33[0m  [36m                                (cs/->camelCase method-name)[0m
+  [36m34[0m  [36m                                method-name))][0m
+  [36m35[0m  [36m     (js->cljkk (.apply method this (clj->js (args-cljkk->js args))))[0m
+  [36m36[0m  [36m     (throw (str "Method: " method-name " was not found in object."))))))[0m
+
+[36m----  Compiler Warning : Please see target/classes/cljs_web3/utils.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.627 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.293 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.691 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/utils.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.678 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/utils.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.308 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.219 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.213 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.236 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.409 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/eth.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.541 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.216 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/run_tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.227 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/run_tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.621 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/run_tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.603 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/run_tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.619 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/run_tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.281 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.323 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.252 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.243 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.219 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/run_tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.302 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.341 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.29 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.223 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.219 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.304 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.212 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.302 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.579 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:19  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (print.foo/look (web3/sha3 "1"))[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (print.foo/look (web3-eth/accounts w3))[0m
+  [36m19[0m  [36m  (is (= 1 1)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.55 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.474 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.392 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:19  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (print.foo/look (web3/sha3 "1"))[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (print.foo/look (web3-eth/accounts w3))[0m
+  [36m19[0m  [36m  (is (= 1 1)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.596 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.598 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:23  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (print.foo/look (web3/sha3 "1")) "")[0m
+  [0m  [0m  [33m                      ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (print.foo/look (web3-eth/accounts w3))[0m
+  [36m19[0m  [36m  (is (= 1 1)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.295 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.545 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.279 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.23 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.215 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.222 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.22 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.255 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.221 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.221 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.228 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.222 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.221 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.253 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.216 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.228 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.28 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.321 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.225 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.254 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.238 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.239 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.226 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.228 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.225 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.26 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 55))[0m
+  [36m22[0m  [36m  #_ (web3/from-decimal 55)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 55))[0m
+  [36m22[0m  [36m  #_ (web3/from-decimal 55)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.268 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  #_ (web3/from-decimal 55)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  #_ (web3/from-decimal 55)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.29 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.59 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  #_ (web3/from-decimal 55)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  #_ (web3/from-decimal 55)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.285 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  #_ (web3/from-decimal 55)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  #_ (web3/from-decimal 55)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.594 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  #_ (web3/from-decimal 55)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  #_ (web3/from-decimal 55)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.294 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+notifying browser that file changed:  out/cljs_web3/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.349 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.173 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  (print.foo/look (web3/from-decimal 55))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  (print.foo/look (web3/from-decimal 55))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.282 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  (print.foo/look (web3/from-decimal 55))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  (print.foo/look (web3/from-decimal 55))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.27 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  (print.foo/look (web3/from-decimal 255))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  (print.foo/look (web3/from-decimal 255))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.292 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  (print.foo/look (web3/from-decimal 255))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  (print.foo/look (web3/from-decimal 255))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.554 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test" "src/cljs_web3" "test/cljs_web3"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  (print.foo/look (web3/from-decimal 255))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:17  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs-web3.core/sha3[0m
+
+  [36m14[0m  [36m(deftest basic[0m
+  [36m15[0m  [36m  (is (web3/connected? w3))[0m
+  [36m16[0m  [36m  (is (seq (web3-eth/accounts w3)))[0m
+  [33m17[0m  [1m  (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs-web3.core/sha3[0m
+  [36m18[0m  [36m  (is (= (web3/to-hex "A") "0x41"))[0m
+  [36m19[0m  [36m  (is (= (web3/to-ascii "0x41") "A"))[0m
+  [36m20[0m  [36m  (is (= (web3/from-ascii "A") "0x41"))[0m
+  [36m21[0m  [36m  (is (= (web3/to-decimal "0xFF") 255))[0m
+  [36m22[0m  [36m  (print.foo/look (web3/from-decimal 255))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.287 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.565 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.323 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.241 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.245 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.267 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.24 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.28 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.255 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.22 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.247 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.214 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.342 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.278 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.266 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.382 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.307 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.276 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.233 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.235 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.262 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.211 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.233 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.234 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.214 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.218 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.708 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.362 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.381 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.369 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.407 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.355 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.386 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.319 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.398 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.381 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.517 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.296 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.458 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:51  column:7  ----[0m
+
+  [1mWrong number of args (0) passed to cljs-web3.eth/contract[0m
+
+  [36m48[0m  [36m  (async done[0m
+  [36m49[0m  [36m    (let [compiled (web3-eth/compile-solidity w3 contract)][0m
+  [36m50[0m  [36m      (is (map? compiled))[0m
+  [33m51[0m  [1m      (web3-eth/contract)[0m
+  [0m  [0m  [33m      ^--- Wrong number of args (0) passed to cljs-web3.eth/contract[0m
+  [36m52[0m  [36m[0m
+  [36m53[0m  [36m      (done)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:51  column:7  ----[0m
+
+  [1mWrong number of args (0) passed to cljs-web3.eth/contract[0m
+
+  [36m48[0m  [36m  (async done[0m
+  [36m49[0m  [36m    (let [compiled (web3-eth/compile-solidity w3 contract)][0m
+  [36m50[0m  [36m      (is (map? compiled))[0m
+  [33m51[0m  [1m      (web3-eth/contract)[0m
+  [0m  [0m  [33m      ^--- Wrong number of args (0) passed to cljs-web3.eth/contract[0m
+  [36m52[0m  [36m[0m
+  [36m53[0m  [36m      (done)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.46 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.248 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/eth.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.395 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.33 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.331 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.313 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.322 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.336 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.185 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/eth.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:51  column:8  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.eth/contract-new[0m
+
+  [36m48[0m  [36m(async done[0m
+  [36m49[0m  [36m  (let [compiled (web3-eth/compile-solidity w3 contract)][0m
+  [36m50[0m  [36m    (is (map? compiled))[0m
+  [33m51[0m  [1m    (web3-eth/contract-new[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var cljs-web3.eth/contract-new[0m
+  [36m52[0m  [36m      w3[0m
+  [36m53[0m  [36m      (:abi-definition (:info (:test compiled)))[0m
+  [36m54[0m  [36m      (fn [err res][0m
+  [36m55[0m  [36m        (print.foo/look err)[0m
+  [36m56[0m  [36m        (done)))))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:51  column:8  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.eth/contract-new[0m
+
+  [36m48[0m  [36m(async done[0m
+  [36m49[0m  [36m  (let [compiled (web3-eth/compile-solidity w3 contract)][0m
+  [36m50[0m  [36m    (is (map? compiled))[0m
+  [33m51[0m  [1m    (web3-eth/contract-new[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var cljs-web3.eth/contract-new[0m
+  [36m52[0m  [36m      w3[0m
+  [36m53[0m  [36m      (:abi-definition (:info (:test compiled)))[0m
+  [36m54[0m  [36m      (fn [err res][0m
+  [36m55[0m  [36m        (print.foo/look err)[0m
+  [36m56[0m  [36m        (done)))))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.377 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:51  column:8  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.eth/contract-new[0m
+
+  [36m48[0m  [36m(async done[0m
+  [36m49[0m  [36m  (let [compiled (web3-eth/compile-solidity w3 contract)][0m
+  [36m50[0m  [36m    (is (map? compiled))[0m
+  [33m51[0m  [1m    (web3-eth/contract-new[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var cljs-web3.eth/contract-new[0m
+  [36m52[0m  [36m      w3[0m
+  [36m53[0m  [36m      (:abi-definition (:info (:test compiled)))[0m
+  [36m54[0m  [36m      (fn [err res][0m
+  [36m55[0m  [36m        (print.foo/look err)[0m
+  [36m56[0m  [36m        (print.foo/look res)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:51  column:8  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.eth/contract-new[0m
+
+  [36m48[0m  [36m(async done[0m
+  [36m49[0m  [36m  (let [compiled (web3-eth/compile-solidity w3 contract)][0m
+  [36m50[0m  [36m    (is (map? compiled))[0m
+  [33m51[0m  [1m    (web3-eth/contract-new[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var cljs-web3.eth/contract-new[0m
+  [36m52[0m  [36m      w3[0m
+  [36m53[0m  [36m      (:abi-definition (:info (:test compiled)))[0m
+  [36m54[0m  [36m      (fn [err res][0m
+  [36m55[0m  [36m        (print.foo/look err)[0m
+  [36m56[0m  [36m        (print.foo/look res)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.381 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.345 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.348 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:57  column:13  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/go[0m
+
+  [36m53[0m  [36m(is (map? compiled))[0m
+  [36m54[0m  [36m(web3-eth/contract-new[0m
+  [36m55[0m  [36m  w3[0m
+  [36m56[0m  [36m  (:abi-definition (:info (:test compiled)))[0m
+  [33m57[0m  [1m  #(go )[0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var cljs-web3.tests/go[0m
+  [36m58[0m  [36m  (fn [err res][0m
+  [36m59[0m  [36m    (is (not err))[0m
+  [36m60[0m  [36m    (when)[0m
+  [36m61[0m  [36m    (print.foo/look err)[0m
+  [36m62[0m  [36m    (print.foo/look res)[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[31mFailed to compile "resources/public/js/compiled/app.js" in 0.134 seconds.[0m
+[36m----  Could not Analyze  test/cljs_web3/tests.cljs   line:60  column:13  ----[0m
+
+  [1mWrong number of args (0) passed to: core/when[0m
+
+  [36m58[0m  [36m(fn [err res][0m
+  [36m59[0m  [36m  (is (not err))[0m
+  [33m60[0m  [1m  (when)[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (0) passed to: core/when[0m
+  [36m61[0m  [36m  (print.foo/look err)[0m
+  [36m62[0m  [36m  (print.foo/look res)[0m
+  [36m63[0m  [36m  (done))))))[0m
+
+[36m----  Analysis Error : Please see test/cljs_web3/tests.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.651 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.526 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.593 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.22 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.612 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.576 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.603 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.661 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.2 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/run_tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.551 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.222 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:57  column:49  ----[0m
+
+  [1mNo such namespace: w3print.foo, could not locate w3print/foo.cljs, w3print/foo.cljc, or Closure namespace ""[0m
+
+  [36m53[0m  [36m(async done[0m
+  [36m54[0m  [36m  (let [compiled (web3-eth/compile-solidity w3 contract)][0m
+  [36m55[0m  [36m    (is (map? compiled))[0m
+  [36m56[0m  [36m    (print.foo/look compiled)[0m
+  [33m57[0m  [1m    (print.foo/look (web3-eth/estimate-gas (w3print.foo/look ) (:code (:test compiled))))[0m
+  [0m  [0m  [33m                                            ^--- No such namespace: w3print.foo, could not locate w3print/foo.cljs, w3print/foo.cljc, or Closure namespace ""[0m
+  [36m58[0m  [36m    (web3-eth/contract-new[0m
+  [36m59[0m  [36m      w3[0m
+  [36m60[0m  [36m      (:abi-definition (:info (:test compiled)))[0m
+  [36m61[0m  [36m      {:gas gas-limit[0m
+  [36m62[0m  [36m       :from (first (web3-eth/accounts w3))}[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:57  column:49  ----[0m
+
+  [1mUse of undeclared Var w3print.foo/look[0m
+
+  [36m53[0m  [36m(async done[0m
+  [36m54[0m  [36m  (let [compiled (web3-eth/compile-solidity w3 contract)][0m
+  [36m55[0m  [36m    (is (map? compiled))[0m
+  [36m56[0m  [36m    (print.foo/look compiled)[0m
+  [33m57[0m  [1m    (print.foo/look (web3-eth/estimate-gas (w3print.foo/look ) (:code (:test compiled))))[0m
+  [0m  [0m  [33m                                            ^--- Use of undeclared Var w3print.foo/look[0m
+  [36m58[0m  [36m    (web3-eth/contract-new[0m
+  [36m59[0m  [36m      w3[0m
+  [36m60[0m  [36m      (:abi-definition (:info (:test compiled)))[0m
+  [36m61[0m  [36m      {:gas gas-limit[0m
+  [36m62[0m  [36m       :from (first (web3-eth/accounts w3))}[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:57  column:49  ----[0m
+
+  [1mNo such namespace: w3print.foo, could not locate w3print/foo.cljs, w3print/foo.cljc, or Closure namespace ""[0m
+
+  [36m53[0m  [36m(async done[0m
+  [36m54[0m  [36m  (let [compiled (web3-eth/compile-solidity w3 contract)][0m
+  [36m55[0m  [36m    (is (map? compiled))[0m
+  [36m56[0m  [36m    (print.foo/look compiled)[0m
+  [33m57[0m  [1m    (print.foo/look (web3-eth/estimate-gas (w3print.foo/look ) (:code (:test compiled))))[0m
+  [0m  [0m  [33m                                            ^--- No such namespace: w3print.foo, could not locate w3print/foo.cljs, w3print/foo.cljc, or Closure namespace ""[0m
+  [36m58[0m  [36m    (web3-eth/contract-new[0m
+  [36m59[0m  [36m      w3[0m
+  [36m60[0m  [36m      (:abi-definition (:info (:test compiled)))[0m
+  [36m61[0m  [36m      {:gas gas-limit[0m
+  [36m62[0m  [36m       :from (first (web3-eth/accounts w3))}[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:57  column:49  ----[0m
+
+  [1mUse of undeclared Var w3print.foo/look[0m
+
+  [36m53[0m  [36m(async done[0m
+  [36m54[0m  [36m  (let [compiled (web3-eth/compile-solidity w3 contract)][0m
+  [36m55[0m  [36m    (is (map? compiled))[0m
+  [36m56[0m  [36m    (print.foo/look compiled)[0m
+  [33m57[0m  [1m    (print.foo/look (web3-eth/estimate-gas (w3print.foo/look ) (:code (:test compiled))))[0m
+  [0m  [0m  [33m                                            ^--- Use of undeclared Var w3print.foo/look[0m
+  [36m58[0m  [36m    (web3-eth/contract-new[0m
+  [36m59[0m  [36m      w3[0m
+  [36m60[0m  [36m      (:abi-definition (:info (:test compiled)))[0m
+  [36m61[0m  [36m      {:gas gas-limit[0m
+  [36m62[0m  [36m       :from (first (web3-eth/accounts w3))}[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.612 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.598 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.542 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:60  column:42  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/compiled[0m
+
+  [36m56[0m  [36m        (print.foo/look compiled)[0m
+  [36m57[0m  [36m        (is (number? (web3-eth/estimate-gas w3 (:test compiled)))))[0m
+  [36m58[0m  [36m        (web3-eth/contract-new[0m
+  [36m59[0m  [36m          w3[0m
+  [33m60[0m  [1m          (:abi-definition (:info (:test compiled)))[0m
+  [0m  [0m  [33m                                         ^--- Use of undeclared Var cljs-web3.tests/compiled[0m
+  [36m61[0m  [36m          {:gas gas-limit[0m
+  [36m62[0m  [36m           :from (first (web3-eth/accounts w3))}[0m
+  [36m63[0m  [36m          #(go (>! ch [%1 %2]))))[0m
+  [36m64[0m  [36m[0m
+  [36m65[0m  [36m      (go[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:60  column:42  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/compiled[0m
+
+  [36m56[0m  [36m        (print.foo/look compiled)[0m
+  [36m57[0m  [36m        (is (number? (web3-eth/estimate-gas w3 (:test compiled)))))[0m
+  [36m58[0m  [36m        (web3-eth/contract-new[0m
+  [36m59[0m  [36m          w3[0m
+  [33m60[0m  [1m          (:abi-definition (:info (:test compiled)))[0m
+  [0m  [0m  [33m                                         ^--- Use of undeclared Var cljs-web3.tests/compiled[0m
+  [36m61[0m  [36m          {:gas gas-limit[0m
+  [36m62[0m  [36m           :from (first (web3-eth/accounts w3))}[0m
+  [36m63[0m  [36m          #(go (>! ch [%1 %2]))))[0m
+  [36m64[0m  [36m[0m
+  [36m65[0m  [36m      (go[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:74  column:12  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/done[0m
+
+  [36m71[0m  [36m(let [[err res] (<! ch)][0m
+  [36m72[0m  [36m  (is (not err))[0m
+  [36m73[0m  [36m  (is (:address res))[0m
+  [33m74[0m  [1m  (done)))))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-web3.tests/done[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[31mFailed to compile "resources/public/js/compiled/app.js" in 0.402 seconds.[0m
+[36m----  Could not Read  test/cljs_web3/tests.cljs   line:82  column:4  ----[0m
+
+  [1mUnmatched delimiter )[0m
+
+  [33m82[0m  [1m)[0m
+  [0m  [0m  [33m ^--- Unmatched delimiter )[0m
+
+[36m----  Reader Error : Please see test/cljs_web3/tests.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.563 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.549 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.556 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.552 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.566 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.575 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.551 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.534 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.53 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.528 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.552 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.55 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.524 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.699 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.558 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.653 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.644 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.613 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.585 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.687 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.839 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+notifying browser that file changed:  out/cljs_web3/core.js
+notifying browser that file changed:  out/cljs_web3/eth.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.681 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.62 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.653 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.663 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.722 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.611 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.24 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.752 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.209 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.41 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.209 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:85  column:27  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/abi[0m
+
+  [36m81[0m  [36m      (done))))[0m
+  [36m82[0m  [36m[0m
+  [36m83[0m  [36m[0m
+  [36m84[0m  [36m[0m
+  [33m85[0m  [1m(web3-eth/contract-new w3 abi[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var cljs-web3.tests/abi[0m
+  [36m86[0m  [36m                       {:data bin[0m
+  [36m87[0m  [36m                        :gas gas-limit[0m
+  [36m88[0m  [36m                        :from (first (web3-eth/accounts w3))}[0m
+  [36m89[0m  [36m                       (fn [err res]))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:86  column:31  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/bin[0m
+
+  [36m85[0m  [36m(web3-eth/contract-new w3 abi[0m
+  [33m86[0m  [1m                       {:data bin[0m
+  [0m  [0m  [33m                              ^--- Use of undeclared Var cljs-web3.tests/bin[0m
+  [36m87[0m  [36m                        :gas gas-limit[0m
+  [36m88[0m  [36m                        :from (first (web3-eth/accounts w3))}[0m
+  [36m89[0m  [36m                       (fn [err res]))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.843 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:86  column:3  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/web3[0m
+
+  [36m85[0m  [36m(web3-eth/contract-new[0m
+  [33m86[0m  [1m  web3[0m
+  [0m  [0m  [33m  ^--- Use of undeclared Var cljs-web3.tests/web3[0m
+  [36m87[0m  [36m  abi[0m
+  [36m88[0m  [36m  {:data bin[0m
+  [36m89[0m  [36m   :gas gas-limit[0m
+  [36m90[0m  [36m   :from (first (web3-eth/accounts w3))}[0m
+  [36m91[0m  [36m  (fn [err res]))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:87  column:3  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/abi[0m
+
+  [36m85[0m  [36m(web3-eth/contract-new[0m
+  [36m86[0m  [36m  web3[0m
+  [33m87[0m  [1m  abi[0m
+  [0m  [0m  [33m  ^--- Use of undeclared Var cljs-web3.tests/abi[0m
+  [36m88[0m  [36m  {:data bin[0m
+  [36m89[0m  [36m   :gas gas-limit[0m
+  [36m90[0m  [36m   :from (first (web3-eth/accounts w3))}[0m
+  [36m91[0m  [36m  (fn [err res]))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:88  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/bin[0m
+
+  [36m85[0m  [36m(web3-eth/contract-new[0m
+  [36m86[0m  [36m  web3[0m
+  [36m87[0m  [36m  abi[0m
+  [33m88[0m  [1m  {:data bin[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-web3.tests/bin[0m
+  [36m89[0m  [36m   :gas gas-limit[0m
+  [36m90[0m  [36m   :from (first (web3-eth/accounts w3))}[0m
+  [36m91[0m  [36m  (fn [err res]))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.743 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:88  column:3  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/web3[0m
+
+  [36m87[0m  [36m(web3-eth/contract-new[0m
+  [33m88[0m  [1m  web3[0m
+  [0m  [0m  [33m  ^--- Use of undeclared Var cljs-web3.tests/web3[0m
+  [36m89[0m  [36m  abi[0m
+  [36m90[0m  [36m  {:data bin[0m
+  [36m91[0m  [36m   :gas gas-limit[0m
+  [36m92[0m  [36m   :from (first (web3-eth/accounts w3))}[0m
+  [36m93[0m  [36m  (fn [err res]))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:89  column:3  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/abi[0m
+
+  [36m87[0m  [36m(web3-eth/contract-new[0m
+  [36m88[0m  [36m  web3[0m
+  [33m89[0m  [1m  abi[0m
+  [0m  [0m  [33m  ^--- Use of undeclared Var cljs-web3.tests/abi[0m
+  [36m90[0m  [36m  {:data bin[0m
+  [36m91[0m  [36m   :gas gas-limit[0m
+  [36m92[0m  [36m   :from (first (web3-eth/accounts w3))}[0m
+  [36m93[0m  [36m  (fn [err res]))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:90  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/bin[0m
+
+  [36m87[0m  [36m(web3-eth/contract-new[0m
+  [36m88[0m  [36m  web3[0m
+  [36m89[0m  [36m  abi[0m
+  [33m90[0m  [1m  {:data bin[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-web3.tests/bin[0m
+  [36m91[0m  [36m   :gas gas-limit[0m
+  [36m92[0m  [36m   :from (first (web3-eth/accounts w3))}[0m
+  [36m93[0m  [36m  (fn [err res]))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.775 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:86  column:3  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/web3[0m
+
+  [36m85[0m  [36m(web3-eth/contract-new[0m
+  [33m86[0m  [1m  web3[0m
+  [0m  [0m  [33m  ^--- Use of undeclared Var cljs-web3.tests/web3[0m
+  [36m87[0m  [36m  abi[0m
+  [36m88[0m  [36m  {:data bin[0m
+  [36m89[0m  [36m   :gas gas-limit[0m
+  [36m90[0m  [36m   :from (first (web3-eth/accounts w3))}[0m
+  [36m91[0m  [36m  (fn [err res]))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:87  column:3  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/abi[0m
+
+  [36m85[0m  [36m(web3-eth/contract-new[0m
+  [36m86[0m  [36m  web3[0m
+  [33m87[0m  [1m  abi[0m
+  [0m  [0m  [33m  ^--- Use of undeclared Var cljs-web3.tests/abi[0m
+  [36m88[0m  [36m  {:data bin[0m
+  [36m89[0m  [36m   :gas gas-limit[0m
+  [36m90[0m  [36m   :from (first (web3-eth/accounts w3))}[0m
+  [36m91[0m  [36m  (fn [err res]))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_web3/tests.cljs   line:88  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-web3.tests/bin[0m
+
+  [36m85[0m  [36m(web3-eth/contract-new[0m
+  [36m86[0m  [36m  web3[0m
+  [36m87[0m  [36m  abi[0m
+  [33m88[0m  [1m  {:data bin[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-web3.tests/bin[0m
+  [36m89[0m  [36m   :gas gas-limit[0m
+  [36m90[0m  [36m   :from (first (web3-eth/accounts w3))}[0m
+  [36m91[0m  [36m  (fn [err res]))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_web3/tests.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.717 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.7 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.38 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/run_tests.js
