@@ -19,7 +19,7 @@ Clojurescript API for [Ethereum](https://ethereum.org/) blockchain [Web3 API](ht
 ```
 
 ## Usage
-So basically, stick with Web3 API [docs](https://github.com/ethereum/wiki/wiki/JavaScript-API), all methods there have their camel-case version in this library. Also, return values and responses in callbacks are automatically camel-cased and keywordized. Instead of calling method of web3 object, you pass it as a first argument. For example:
+So basically, stick with Web3 API [docs](https://github.com/ethereum/wiki/wiki/JavaScript-API), all methods there have their kebab-case version in this library. Also, return values and responses in callbacks are automatically kebab-cased and keywordized. Instead of calling method of web3 object, you pass it as a first argument. For example:
 ```javascript
 web3.eth.accounts
 web3.version.api
