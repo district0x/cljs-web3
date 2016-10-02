@@ -28,7 +28,7 @@ web3.isConnected()
 web3.net.peerCount
 web3.net.getPeerCount(function(error, result){ ... })
 ```
-becames
+becomes
 ```clojure
 (web3-eth/accounts web3)
 (web3/version-api w3)
