@@ -31,11 +31,11 @@ web3.net.getPeerCount(function(error, result){ ... })
 becomes
 ```clojure
 (web3-eth/accounts web3)
-(web3/version-api w3)
-(web3-eth/default-account w3)
-(web3/connected? w3)
-(web3-net/peer-count w3)
-(web3-net/peer-count w3 (fn [error result]))
+(web3/version-api web3)
+(web3-eth/default-account web3)
+(web3/connected? web3)
+(web3-net/peer-count web3)
+(web3-net/peer-count web3 (fn [error result]))
 ```
 
 Some functions in `cljs-web3.core` don't really need web3 instance, even though they're called as object methods in Web3 docs. To make our lives easier, in clojurescript, you can just call it without web3 instance. For example:
