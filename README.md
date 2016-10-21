@@ -2,6 +2,10 @@
 
 Clojurescript API for [Ethereum](https://ethereum.org/) blockchain [Web3 API](https://github.com/ethereum/wiki/wiki/JavaScript-API)
 
+## See also
+* [How to create decentralised apps with Clojurescript re-frame and Ethereum](https://medium.com/@matus.lestan/how-to-create-decentralised-apps-with-clojurescript-re-frame-and-ethereum-81de24d72ff5#.kul24x62l)
+* [re-frame-web3-fx](https://medium.com/@matus.lestan/how-to-create-decentralised-apps-with-clojurescript-re-frame-and-ethereum-81de24d72ff5#.kul24x62l)
+
 ## Installation
 ```clojure
 ; Add to dependencies
