@@ -14,7 +14,14 @@
 (def w3 (web3/create-web3 "http://localhost:8545/"))
 (def gas-limit 4500000)
 
-(def contract-source "contract test { function multiply(uint a) returns(uint d) { return a * 7; } }")
+(def contract-source "
+  pragma solidity ^0.4.6;
+
+  contract test {
+    function multiply(uint a) returns(uint d) {
+      return a * 7;
+    }
+  }")
 
 (deftest basic
   (is (web3/connected? w3))
@@ -52,17 +59,17 @@
   (is (map? (web3-eth/get-block w3 "latest")))
   (is (seq (web3-eth/get-compilers w3)))
 
-  (is (web3-personal/unlock-account w3 (web3-eth/default-account w3) "m" 999999))
+  #_ (is (web3-personal/unlock-account w3 (web3-eth/default-account w3) "m" 999999))
 
   (let [create-contract-ch (chan)]
     (async done
       (let [compiled (web3-eth/compile-solidity w3 contract-source)]
         (is (map? compiled))
-        (is (number? (web3-eth/estimate-gas w3 (:test compiled))))
+        (is (number? (web3-eth/estimate-gas w3 compiled)))
         (web3-eth/contract-new
           w3
-          (:abi-definition (:info (:test compiled)))
-          {:data (:code (:test compiled))
+          (:abi-definition (:info compiled))
+          {:data (:code compiled)
            :gas gas-limit
            :from (first (web3-eth/accounts w3))}
           #(go (>! create-contract-ch [%1 %2]))))
