@@ -76,3 +76,4 @@ Don't hesitate to open lib files or test file of this library to see how to use 
 
 ## DAPPS using cljs-web3
 * [emojillionaire](https://github.com/madvas/emojillionaire)
+* [ethlance](https://github.com/madvas/ethlance)
