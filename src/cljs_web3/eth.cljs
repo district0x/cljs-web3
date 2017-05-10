@@ -75,8 +75,14 @@
 (defn send-raw-transaction! [web3 & [signed-transaction-data & args]]
   (js-apply (eth web3) "sendRawTransaction" args))
 
+(defn send-iban-transaction! [web3 & [signed-transaction-data & args]]
+  (js-apply (eth web3) "sendIBANTransaction" args))
+
 (defn sign [web3 & [address data-to-sign :as args]]
   (js-apply (eth web3) "sign" args))
+
+(defn sign-transaction [web3 & args]
+  (js-apply (eth web3) "signTransaction" args))
 
 (defn call! [web3 & [call-object default-block :as args]]
   (js-apply (eth web3) "call" args))

@@ -19,9 +19,3 @@
 
 (defn add-to-group [web3 & args]
   (js-apply (get-shh web3) "addToGroup" args))
-
-(defn filter [web3 & args]
-  (js-apply (get-shh web3) "filter" args))
-
-
-

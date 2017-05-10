@@ -37,6 +37,12 @@
 (defn to-big-number [number-or-hex-string]
   (js-prototype-apply js/Web3 "toBigNumber" [number-or-hex-string]))
 
+(defn pad-left [string chars & [sign]]
+  (js-prototype-apply js/Web3 "padLeft" [string chars sign]))
+
+(defn pad-right [string chars & [sign]]
+  (js-prototype-apply js/Web3 "padRight" [string chars sign]))
+
 (defn address? [address]
   (js-prototype-apply js/Web3 "isAddress" [address]))
 
@@ -55,8 +61,8 @@
   (let [constructor (aget Web3 "providers" "HttpProvider")]
     (constructor. uri)))
 
-(defn qt-provider [Web3 uri]
-  (let [constructor (aget Web3 "providers" "QtSyncProvider")]
+(defn ipc-provider [Web3 uri]
+  (let [constructor (aget Web3 "providers" "IpcProvider")]
     (constructor. uri)))
 
 (defn create-web3 [url]

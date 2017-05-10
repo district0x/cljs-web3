@@ -15,5 +15,17 @@
 (defn unlock-account [web3 & args]
   (js-apply (get-prs web3) "unlockAccount" args))
 
-(defn unlock-account-and-send-transaction [web3 & args]
-  (js-apply (get-prs web3) "unlockAccountAndSendTransaction" args))
+(defn ec-recover [web3 & args]
+  (js-apply (get-prs web3) "ecRecover" args))
+
+(defn import-raw-key [web3 & args]
+  (js-apply (get-prs web3) "importRawKey" args))
+
+(defn send-transaction [web3 & args]
+  (js-apply (get-prs web3) "sendTransaction" args))
+
+(defn sign [web3 & args]
+  (js-apply (get-prs web3) "sign" args))
+
+
+

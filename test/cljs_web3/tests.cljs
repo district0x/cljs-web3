@@ -1,14 +1,15 @@
 (ns cljs-web3.tests
   (:require [cljs.core.async :refer [<! >! chan]]
+            [cljs-web3.core :as web3]
+            [cljs-web3.db :as web3-db]
+            [cljs-web3.eth :as web3-eth]
+            [cljs-web3.net :as web3-net]
+            [cljs-web3.personal :as web3-personal]
+            [cljs-web3.settings :as web3-settings]
+            [cljs-web3.shh :as web3-shh]
             [cljs.test :refer-macros [deftest is testing run-tests use-fixtures async]]
             [cljsjs.web3]
-            [print.foo :include-macros true]
-            [cljs-web3.core :as web3]
-            [cljs-web3.eth :as web3-eth]
-            [cljs-web3.db :as web3-db]
-            [cljs-web3.personal :as web3-personal]
-            [cljs-web3.shh :as web3-shh]
-            [cljs-web3.net :as web3-net])
+            [print.foo :include-macros true])
   (:require-macros [cljs.core.async.macros :refer [go]]))
 
 (def w3 (web3/create-web3 "http://localhost:8549/"))
@@ -36,10 +37,13 @@
   (is (= (web3/from-decimal 255) "0xff"))
   (is (= (web3/from-wei 1000000000000000000 :ether) "1"))
   (is (= (web3/to-wei 1 :ether) "1000000000000000000"))
+  (is (= (web3/pad-left "1" 5 "A") "AAAA1"))
+  (is (= (web3/pad-right "1" 5 "A") "1AAAA"))
   (is (.eq (web3/to-big-number 1) 1))
   (is (web3/address? "0x6fce64667819c82a8bcbb78e294d7b444d2e1a29"))
   (is (not (web3/address? "0x6fce64667819c82a8bcbb78e294d7b444d2e1a294")))
   (is (web3/current-provider w3))
+  (is (= (web3-settings/default-block w3) "latest"))
 
   (web3-eth/set-default-account! w3 (first (web3-eth/accounts w3)))
   (is (= (web3-eth/default-account w3) (first (web3-eth/accounts w3))))
