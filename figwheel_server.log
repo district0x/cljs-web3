@@ -1593,3 +1593,116 @@ notifying browser that file changed:  out/cljs_web3/tests.js
 notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
 notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
 notifying browser that file changed:  out/cljs_web3/run_tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.078 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.129 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.779 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.16 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.008 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.651 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.684 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.619 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.727 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.008 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.262 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.791 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.708 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.934 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.796 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.141 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+notifying browser that file changed:  out/cljs_web3/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.718 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.938 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.879 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/personal.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.028 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/personal.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.207 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/personal.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.376 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/bzz.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.095 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.249 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/tests.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.035 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.766 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.767 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_web3/core.js

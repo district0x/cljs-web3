@@ -30,7 +30,7 @@
   #_ (is (string? (web3/version-ethereum w3)))              ; Not working with testrpc
   (is (seq (web3-eth/accounts w3)))
   (is (= (web3/sha3 "1") "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"))
-  (is (= (web3/to-hex "A") "0x41"))
+  (is (= (web3/to-hex js/Web3 "A") "0x41"))
   (is (= (web3/to-ascii "0x41") "A"))
   (is (= (web3/from-ascii "A") "0x41"))
   (is (= (web3/to-decimal "0xFF") 255))

@@ -1,4 +1,4 @@
-(defproject cljs-web3 "0.19.0-0"
+(defproject cljs-web3 "0.19.0-0-1"
   :description "Clojurescript API for Ethereum Web3 API"
   :url "https://github.com/madvas/cljs-web3"
   :license {:name "Eclipse Public License"
@@ -25,7 +25,7 @@
               :cljsbuild {:builds [{:id "dev"
                                     :source-paths ["src" "test"]
                                     :figwheel {:on-jsload cljs-web3.run-tests/run-all-tests}
-                                    :compiler {:main cljs-web3.run-tests
+                                    :compiler {:main "cljs-web3.run-tests"
                                                :output-to "resources/public/js/compiled/app.js"
                                                :output-dir "resources/public/js/compiled/out"
                                                :asset-path "/js/compiled/out"
