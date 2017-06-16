@@ -71,6 +71,13 @@ Thses are few extra functions, which you won't find in Web3 API
 
 ; This way you can call any contract method
 (web3-eth/contract-call ContractInstance :multiply 5)
+
+; This library cointains special namespace cljs-web3.evm for controlling testrpc server
+; See https://github.com/ethereumjs/testrpc for more info
+(web3-evm/increase-time! web3 [1000] callback) 
+(web3-evm/mine! web3 callback) 
+(web3-evm/revert! web3 [0x01] callback) 
+(web3-evm/snapshot! web3 callback) 
 ```
 
 #### Code is documentation
