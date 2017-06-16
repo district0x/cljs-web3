@@ -21,6 +21,7 @@ Clojurescript API for [Ethereum](https://ethereum.org/) blockchain [Web3 API](ht
             [cljs-web3.shh :as web3-shh]
             [cljs-web3.net :as web3-net]
             [cljs-web3.bzz :as web3-bzz]
+            [cljs-web3.evm :as web3-evm]
             [cljs-web3.settings :as web3-settings]))
 ```
 r
