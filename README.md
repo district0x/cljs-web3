@@ -9,7 +9,7 @@ Clojurescript API for [Ethereum](https://ethereum.org/) blockchain [Web3 API](ht
 ## Installation
 ```clojure
 ; Add to dependencies
-[cljs-web3 "0.19.0-0-2"]
+[cljs-web3 "0.19.0-0-3"]
 ```
 ```clojure
 (ns my.app
@@ -80,6 +80,33 @@ Thses are few extra functions, which you won't find in Web3 API
 (web3-evm/revert! web3 [0x01] callback) 
 (web3-evm/snapshot! web3 callback) 
 ```
+
+#### cljs.core.async integration
+There's alternative async namespace for each original namespace, which provides async alternative instead of callback
+approach. For example:
+```clojure
+(ns test
+  (:require
+    [cljs-web3.async.eth :as web3-eth-async]
+    [cljs.core.async :refer [<! >! chan]]
+    [clojure.string :as string])
+  (:require-macros [cljs.core.async.macros :refer [go]]))
+  
+(go
+  (<! (web3-eth-async/accounts web3))
+  ;; returns [nil ["0x56727ca3132d00307051a4fa6c6a2c3f07cb3f91"]]
+  
+  ;; Alternatively, you can always pass channel as first argument. Response will be pushed into this channel
+  ;; For example if you need pass channel with transducers
+  (<! (web3-eth-async/accounts
+            (chan 1 (comp (map second)
+                          (map (partial map string/upper-case))))
+            web3))
+  ;; returns ("0X56727CA3132D00307051A4FA6C6A2C3F07CB3F91")
+  
+  )
+```
+
 
 #### Code is documentation
 Don't hesitate to open lib files or test file of this library to see how to use it. It's not bloated with implementation, so it's easy to read.

@@ -2,7 +2,9 @@
   (:require
     [camel-snake-kebab.core :as cs :include-macros true]
     [camel-snake-kebab.extras :refer [transform-keys]]
-    [clojure.string :as string]))
+    [clojure.string :as string]
+    [cljs.core.async :refer [>! chan]])
+  (:require-macros [cljs.core.async.macros :refer [go]]))
 
 (defn js-val [clj-or-js-dict]
   (cond
@@ -44,3 +46,13 @@
     (if (fn? (first args))
       (js-apply (apply aget web3 (butlast ks)) (str "get" (cs/->PascalCase (last ks))) args)
       (js->cljkk (apply aget web3 ks)))))
+
+(defn create-async-fn [f]
+  (fn [& args]
+    (let [[ch args] (if (instance? cljs.core.async.impl.channels/ManyToManyChannel (first args))
+                      [(first args) (rest args)]
+                      [(chan) args])]
+
+      (apply f (concat args [(fn [err res]
+                               (go (>! ch [err res])))]))
+      ch)))
