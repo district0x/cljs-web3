@@ -9,7 +9,7 @@ Clojurescript API for [Ethereum](https://ethereum.org/) blockchain [Web3 API](ht
 ## Installation
 ```clojure
 ; Add to dependencies
-[cljs-web3 "0.19.0-0-4"]
+[cljs-web3 "0.19.0-0-5"]
 ```
 ```clojure
 (ns my.app

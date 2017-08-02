@@ -12,11 +12,23 @@
     (vector? clj-or-js-dict) (clj->js clj-or-js-dict)
     :else clj-or-js-dict))
 
+(defn safe-case [case-f]
+  (fn [x]
+    (cond-> (subs (name x) 1)
+      true (string/replace "_" "*")
+      true case-f
+      true (string/replace "*" "_")
+      true (->> (str (first (name x))))
+      (keyword? x) keyword)))
+
+(def camel-case (safe-case cs/->camelCase))
+(def kebab-case (safe-case cs/->kebab-case))
+
 (def js->cljk #(js->clj % :keywordize-keys true))
 
-(def js->cljkk (comp (partial transform-keys cs/->kebab-case) js->cljk))
+(def js->cljkk (comp (partial transform-keys kebab-case) js->cljk))
 
-(def cljkk->js (comp clj->js (partial transform-keys cs/->camelCase)))
+(def cljkk->js (comp clj->js (partial transform-keys camel-case)))
 
 (defn callback-js->clj [x]
   (if (fn? x)
@@ -32,9 +44,7 @@
    (js-apply this method-name nil))
   ([this method-name args]
    (let [method-name (name method-name)]
-     (if-let [method (aget this (if (string/includes? method-name "-") ; __callback gets wrongly transformed
-                                  (cs/->camelCase method-name)
-                                  method-name))]
+     (if-let [method (aget this (camel-case method-name))]
        (js->cljkk (.apply method this (clj->js (args-cljkk->js args))))
        (throw (str "Method: " method-name " was not found in object."))))))
 
