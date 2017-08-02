@@ -4,6 +4,10 @@
     [cljs-web3.eth :as web3-eth]
     [cljs-web3.utils :as u]))
 
+(def default-account web3-eth/default-account)
+(def set-default-account! web3-eth/set-default-account!)
+(def default-block web3-eth/default-block)
+(def set-default-block! web3-eth/set-default-block!)
 (def syncing (u/create-async-fn web3-eth/syncing))
 (def syncing? (u/create-async-fn web3-eth/syncing?))
 (def coinbase (u/create-async-fn web3-eth/coinbase))
@@ -35,9 +39,9 @@
 (def compile-solidity (u/create-async-fn web3-eth/compile-solidity))
 (def compile-lll (u/create-async-fn web3-eth/compile-lll))
 (def compile-serpent (u/create-async-fn web3-eth/compile-serpent))
-(def namereg (u/create-async-fn web3-eth/namereg))
-(def contract (u/create-async-fn web3-eth/contract))
-(def contract-at (u/create-async-fn web3-eth/contract-at))
+(def namereg web3-eth/namereg)
+(def contract web3-eth/contract)
+(def contract-at web3-eth/contract-at)
 (def contract-new (u/create-async-fn web3-eth/contract-new))
 (def contract-call (u/create-async-fn web3-eth/contract-call))
 (def stop-watching! (u/create-async-fn web3-eth/stop-watching!))
