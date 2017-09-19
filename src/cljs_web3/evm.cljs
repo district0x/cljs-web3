@@ -3,7 +3,10 @@
   (:require [cljs-web3.utils :refer [callback-js->clj]]))
 
 (defn send-async-fn [web3]
-  (aget web3 "currentProvider" "sendAsync"))
+  (fn [& args]
+    (apply js-invoke
+           (aget web3 "currentProvider")
+           "sendAsync" args)))
 
 (defn increase-time! [web3 args callback]
   ((send-async-fn web3)
