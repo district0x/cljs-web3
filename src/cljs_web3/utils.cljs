@@ -6,12 +6,6 @@
     [cljs.core.async :refer [>! chan]])
   (:require-macros [cljs.core.async.macros :refer [go]]))
 
-(defn js-val [clj-or-js-dict]
-  (cond
-    (map? clj-or-js-dict) (clj->js clj-or-js-dict)
-    (vector? clj-or-js-dict) (clj->js clj-or-js-dict)
-    :else clj-or-js-dict))
-
 (defn safe-case [case-f]
   (fn [x]
     (cond-> (subs (name x) 1)
