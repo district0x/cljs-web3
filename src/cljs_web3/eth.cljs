@@ -53,6 +53,8 @@
 
 (defn get-block-transaction-count [web3 & [block-hash-or-number :as args]]
   (eth web3) "getBlockTransactionCount" args)
+  [web3 & [block-hash-or-number :as args]]
+  (js-apply (eth web3) "getBlockTransactionCount" args))
 
 (defn get-uncle [web3 & [block-hash-or-number uncle-number return-transaction-objects? :as args]]
   (js-apply (eth web3) "getUncle" args))
