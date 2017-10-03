@@ -79,6 +79,7 @@
   (js-apply (eth web3) "sendRawTransaction" args))
 
 (defn send-iban-transaction! [web3 & [signed-transaction-data & args]]
+  [web3 & [from iban-address value :as args]]
   (js-apply (eth web3) "sendIBANTransaction" args))
 
 (defn sign [web3 & [address data-to-sign :as args]]
