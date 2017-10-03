@@ -110,6 +110,7 @@ There's an alternative async namespace for each original namespace, which provid
 #### Code is documentation
 Don't hesitate to open lib files or test files of this library to see how to use it. It's not bloated with implementation, so it's easy to read.
 
+Docstrings for the methods and namespaces are adjusted to ClojureScript from the [web3.js documentation](https://github.com/ethereum/wiki/wiki/JavaScript-API#web3netlistening)
 ## DAPPS using cljs-web3
 * [emojillionaire](https://github.com/madvas/emojillionaire)
 * [ethlance](https://github.com/madvas/ethlance)
