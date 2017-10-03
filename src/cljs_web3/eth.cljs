@@ -75,6 +75,7 @@
   (js-apply (eth web3) "sendTransaction" args))
 
 (defn send-raw-transaction! [web3 & [signed-transaction-data & args]]
+  [web3 & [signed-transaction-data :as args]]
   (js-apply (eth web3) "sendRawTransaction" args))
 
 (defn send-iban-transaction! [web3 & [signed-transaction-data & args]]
