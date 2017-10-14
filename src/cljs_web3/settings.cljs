@@ -1,5 +1,4 @@
-(ns cljs-web3.settings
-  (:require [cljs-web3.utils :as u :refer [js-val js-apply]]))
+(ns cljs-web3.settings)
 
 (defn settings [web3]
   (aget web3 "settings"))

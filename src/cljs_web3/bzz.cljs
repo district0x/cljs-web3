@@ -1,4 +1,6 @@
 (ns cljs-web3.bzz
+  "Interface to the web3-bzz that allows you to interact with swarm
+  decentralized file store"
   (:refer-clojure :exclude [get])
   (:require [cljs-web3.utils :as u :refer [js-apply]]))
 
@@ -37,12 +39,3 @@
 
 (defn sync-enabled? [web3 & args]
   (js-apply (get-bzz web3) "syncEnabled" args))
-
-
-
-
-
-
-
-
-

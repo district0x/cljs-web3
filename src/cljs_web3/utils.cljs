@@ -1,16 +1,9 @@
 (ns cljs-web3.utils
-  (:require
-    [camel-snake-kebab.core :as cs :include-macros true]
-    [camel-snake-kebab.extras :refer [transform-keys]]
-    [clojure.string :as string]
-    [cljs.core.async :refer [>! chan]])
+  (:require [camel-snake-kebab.core :as cs :include-macros true]
+            [camel-snake-kebab.extras :refer [transform-keys]]
+            [cljs.core.async :refer [>! chan]]
+            [clojure.string :as string])
   (:require-macros [cljs.core.async.macros :refer [go]]))
-
-(defn js-val [clj-or-js-dict]
-  (cond
-    (map? clj-or-js-dict) (clj->js clj-or-js-dict)
-    (vector? clj-or-js-dict) (clj->js clj-or-js-dict)
-    :else clj-or-js-dict))
 
 (defn safe-case [case-f]
   (fn [x]
@@ -26,9 +19,13 @@
 
 (def js->cljk #(js->clj % :keywordize-keys true))
 
-(def js->cljkk (comp (partial transform-keys kebab-case) js->cljk))
+(def js->cljkk
+  "From JavaScript to Clojure with kekab-cased keywords."
+  (comp (partial transform-keys kebab-case) js->cljk))
 
-(def cljkk->js (comp clj->js (partial transform-keys camel-case)))
+(def cljkk->js
+  "From Clojure with kebab-cased keywords to JavaScript."
+  (comp clj->js (partial transform-keys camel-case)))
 
 (defn callback-js->clj [x]
   (if (fn? x)
@@ -51,10 +48,15 @@
 (defn js-prototype-apply [js-obj method-name args]
   (js-apply (aget js-obj "prototype") method-name args))
 
-(defn prop-or-clb-fn [& ks]
+(defn prop-or-clb-fn
+  "Constructor to create an fn to get properties or to get properties and apply a
+  callback fn."
+  [& ks]
   (fn [web3 & args]
     (if (fn? (first args))
-      (js-apply (apply aget web3 (butlast ks)) (str "get" (cs/->PascalCase (last ks))) args)
+      (js-apply (apply aget web3 (butlast ks))
+                (str "get" (cs/->PascalCase (last ks)))
+                args)
       (js->cljkk (apply aget web3 ks)))))
 
 (defn create-async-fn [f]
@@ -62,7 +64,6 @@
     (let [[ch args] (if (instance? cljs.core.async.impl.channels/ManyToManyChannel (first args))
                       [(first args) (rest args)]
                       [(chan) args])]
-
       (apply f (concat args [(fn [err res]
                                (go (>! ch [err res])))]))
       ch)))
