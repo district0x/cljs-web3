@@ -65,7 +65,7 @@
 
   #_ (is (web3-personal/unlock-account w3 (web3-eth/default-account w3) "m" 999999))
 
-  (let [create-contract-ch (chan)]
+  #_ (let [create-contract-ch (chan)]
     (async done
       (let [compiled (web3-eth/compile-solidity w3 contract-source)]
         (is (map? compiled))

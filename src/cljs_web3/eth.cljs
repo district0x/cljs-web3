@@ -1,7 +1,7 @@
 (ns cljs-web3.eth
   "Contains the ethereum blockchain related methods."
   (:refer-clojure :exclude [filter])
-  (:require [cljs-web3.utils :as u :refer [js-val js-apply]]))
+  (:require [cljs-web3.utils :as u :refer [js-apply]]))
 
 
 (defn eth
@@ -353,12 +353,13 @@
 
   Example:
   user> (get-code web3-instance
-                  \"0x85d85715218895ae964a750d9a92f13a8951de3d\
+                  \"0x85d85715218895ae964a750d9a92f13a8951de3d
                   0
                   \"latest\"
                   (fn [err res] (when-not err (println res))))
   nil
-  user> `0x`"
+  user> `0x`
+  "
   [web3 & [address default-block :as args]]
   (js-apply (eth web3) "getCode" args))
 

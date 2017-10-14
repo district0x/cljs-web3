@@ -30,6 +30,8 @@
 (defn callback-js->clj [x]
   (if (fn? x)
     (fn [err res]
+      (when (and res (aget res "v"))
+        (aset res "v" (aget res "v")))                      ;; Prevent weird bug in advanced optimisations
       (x err (js->cljkk res)))
     x))
 
@@ -40,9 +42,9 @@
   ([this method-name]
    (js-apply this method-name nil))
   ([this method-name args]
-   (let [method-name (name method-name)]
-     (if-let [method (aget this (camel-case method-name))]
-       (js->cljkk (.apply method this (clj->js (args-cljkk->js args))))
+   (let [method-name (camel-case (name method-name))]
+     (if (aget this method-name)
+       (js->cljkk (apply js-invoke this method-name (args-cljkk->js args)))
        (throw (str "Method: " method-name " was not found in object."))))))
 
 (defn js-prototype-apply [js-obj method-name args]
