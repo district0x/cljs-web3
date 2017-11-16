@@ -117,6 +117,7 @@ Docstrings for the methods and namespaces are adjusted to ClojureScript from the
 
 ## Testing
 
-1. Run figwheel `lein figwheel`
+1. Start figwheel `lein figwheel`
 2. Open http://localhost:6612/ in the browser
-3. Run `(cljs-web3.run-tests/run-all-tests)` inside cljs repl.
+3. Run `testrpc -p 8549` (Install testrpc with `npm install -g ethereumjs-testrpc` https://github.com/ethereumjs/testrpc)
+4. Run `(cljs-web3.run-tests/run-all-tests)` inside cljs repl.
