@@ -5,7 +5,6 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojurescript "1.9.227"]
                  [camel-snake-kebab "0.4.0"]
-                 [print-foo-cljs "2.0.3"]
                  [cljsjs/web3 "0.19.0-0"]]
   :plugins [[lein-cljsbuild "1.1.4"]]
 
@@ -21,6 +20,7 @@
                              [binaryage/devtools "0.8.1"]
                              [com.cemerick/piggieback "0.2.1"]
                              [figwheel-sidecar "0.5.13"]
+                             [print-foo-cljs "2.0.3"]
                              [org.clojure/tools.nrepl "0.2.11"]]
               :plugins [[lein-figwheel "0.5.13"]]
               :source-paths ["env/dev"]
