@@ -114,3 +114,9 @@ Docstrings for the methods and namespaces are adjusted to ClojureScript from the
 ## DAPPS using cljs-web3
 * [emojillionaire](https://github.com/madvas/emojillionaire)
 * [ethlance](https://github.com/madvas/ethlance)
+
+## Testing
+
+1. Run figwheel `lein figwheel`
+2. Open http://localhost:6612/ in the browser
+3. Run `(cljs-web3.run-tests/run-all-tests)` inside cljs repl.
