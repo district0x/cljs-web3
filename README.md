@@ -73,6 +73,9 @@ These are a few extra functions, which you won't find in the Web3 API:
 ;; This way you can call any contract method
 (web3-eth/contract-call ContractInstance :multiply 5)
 
+;; Gets binary data of a contract method call
+(web3-eth/contract-get-data ContractInstance :multiply 5)
+
 ;; This library contains the special namespace cljs-web3.evm for controlling a testrpc server
 ;; See https://github.com/ethereumjs/testrpc for more info
 (web3-evm/increase-time! web3 [1000] callback)

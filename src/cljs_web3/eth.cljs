@@ -1,7 +1,7 @@
 (ns cljs-web3.eth
   "Contains the ethereum blockchain related methods."
   (:refer-clojure :exclude [filter])
-  (:require [cljs-web3.utils :as u :refer [js-apply]]))
+  (:require [cljs-web3.utils :as u :refer [js-apply camel-case]]))
 
 
 (defn eth
@@ -966,6 +966,29 @@
   25"
   [contract-instance method & args]
   (js-apply contract-instance method args))
+
+
+(defn contract-get-data
+  "Gets binary data of a contract method call.
+
+  Use the kebab-cases version of the original method.
+  E.g., function fooBar() can be addressed with :foo-bar.
+
+  Parameters:
+  contract-instance - an instance of the contract (obtained via `contract` or
+                      `contract-at`)
+  method            - the kebab-cased version of the method
+  args              - arguments to the method
+
+  Example:
+  user> `(web3-eth/contract-call ContractInstance :multiply 5)`
+  25"
+  [contract-instance method & args]
+  (let [method-name (camel-case (name method))
+        method-fn (aget contract-instance method-name)]
+    (if method-fn
+      (js-apply method-fn "getData" args)
+      (throw (str "Method: " method-name " was not found in object.")))))
 
 
 (defn stop-watching!
