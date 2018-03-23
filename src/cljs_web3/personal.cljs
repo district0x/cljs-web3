@@ -118,7 +118,7 @@
   web3        - web3 instance
   transaction - The same argument as for `(web3-eth/send-transaction! ...)`
                 and contains the from address. If the passphrase can be
-                used to decrypt the private key belogging to tx.from the
+                used to decrypt the private key belonging to tx.from the
                 transaction is verified, signed and send onto the network.
                 The account is not unlocked globally in the node and cannot
                 be used in other RPC calls.
@@ -142,7 +142,7 @@
   highly unsecure.
 
   Parameters:
-  web3     - web3 insance
+  web3     - web3 instance
   String   - Data to sign. If String it will be converted using
              web3.utils.utf8ToHex.
   String   - Address to sign data with.
