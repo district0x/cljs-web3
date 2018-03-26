@@ -15,8 +15,8 @@
      (create-web3 \"http://localhost:8545/\"))`
 
   The Web3 JavaScript object is provided on the browser window."
-  (:require [cljs-web3.utils :as u :refer [js-apply js-prototype-apply]]))
-
+  (:require [cljs-web3.utils :as u :refer [js-apply js-prototype-apply]]
+            [goog.object]))
 
 (def version-api
   "Returns a string representing the Ethereum js api version.
@@ -386,6 +386,12 @@
   [web3]
   (aget web3 "currentProvider"))
 
+(defn web3
+  "Return the web3 instance injected via Mist or Metamask"
+  []
+  (new (goog.object/getValueByKeys js/window "web3" "constructor")
+       (current-provider
+        (goog.object/get js/window "web3"))))
 
 ;;; Providers
 
