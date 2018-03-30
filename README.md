@@ -57,7 +57,10 @@ Some functions in `cljs-web3.core` don't really need a web3 instance, even thoug
 #### Extra functions for a better life
 These are a few extra functions, which you won't find in the Web3 API:
 ```clojure
-;; Create web3 instance
+;; Create web3 instance from injected web3 (Mist / Metamask)
+(web3/web3)
+
+;; Create web3 instance from HTTP provider
 (web3/create-web3 "http://localhost:8545/")
 
 ;; Deploy new contract
