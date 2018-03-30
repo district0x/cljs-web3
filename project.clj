@@ -1,4 +1,4 @@
-(defproject cljs-web3 "0.19.0-0-10"
+(defproject cljs-web3 "0.19.0-0-11"
   :description "Clojurescript API for Ethereum Web3 API"
   :url "https://github.com/madvas/cljs-web3"
   :license {:name "Eclipse Public License"
